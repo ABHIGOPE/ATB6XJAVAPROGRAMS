@@ -1,5 +1,5 @@
 package ex_25042024;
-
+import java.util.Scanner;
 public class Lab080 {
     public static void main(String[] args) {
         // If Else - Condition  ( If, else If , else) - multiple condition
@@ -49,4 +49,4 @@ public class Lab080 {
 
     }
 }
-}
+
