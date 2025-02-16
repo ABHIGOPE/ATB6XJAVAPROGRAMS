@@ -22,16 +22,23 @@ public class AutomationClass {
     }
 
     void testCase1(){
-        System.out.println("TCS1");
+        System.out.println("TCS->1");
     }
     void testCase2() {
-        System.out.println("TCS2");
+        System.out.println("TCS->2");
     }
 
     public static void main(String[] args) {
-        AutomationClass TC1= new AutomationClass("TC1");
-        AutomationClass TC2= new AutomationClass("TC2");
+        AutomationClass TC1= new AutomationClass("Test Case 1");
+        System.out.println(TC1.name);
+        TC1.databaseConnection();
         TC1.testCase1();
+        TC1.testCase2();
+
+        AutomationClass TC2= new AutomationClass("Test Case 2");
+        System.out.println(TC2.name);
+        TC2.excelOpen();
+        TC2.testCase1();
         TC2.testCase2();
 
     }

@@ -13,9 +13,9 @@ public class Person {
     }
 
     //Copy Contructor
-    Person(Person person){
-        this.name=person.name;
-        this.age=person.age;
+    Person(Person Person){
+        this.name=Person.name;
+        this.age=Person.age;
     }
 
     public static void main(String[] agrs){

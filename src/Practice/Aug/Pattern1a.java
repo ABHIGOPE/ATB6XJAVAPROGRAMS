@@ -1,6 +1,6 @@
 package Practice.Aug;
-import java.util.*;
-public class Pattern1 {
+
+public class Pattern1a {
     public static void main(String[] args) {
         int n=5;
         int m=6;
