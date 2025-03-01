@@ -27,7 +27,5 @@ public class Lab235 {
         System.out.println(myList2.size());
 
         System.out.println(myList2.lastIndexOf(myList2));
-        System.out.println(myList2.indexOf("Sahil"));
-
     }
 }
